@@ -1,0 +1,61 @@
+# Cosy Cafe: a dark theme. A café on a winter evening, seen from a table inside:
+# espresso and walnut for the room, cream for the text, lamplight for whatever
+# is lit, and the berries, ivy, biscuits and heather of the room for the
+# terminal colors: the only blue is the dusk outside, and that stays in the window.
+# Contrast ratios in comments are against `background`.
+
+mode = "dark"
+
+# Lamplight: links, the focused control, the bar's highlights and the top of
+# the focused window's border, 10.0:1.
+accent = "#f0b565"
+# The focused window's border: the lamp at the top edge down to its brass foot.
+hyprland_active_border = "#f0b565 #b98045 90deg"
+# The other windows' borders: the room's walnut.
+hyprland_inactive_border = "#4a3324"
+# Selected text and the chosen row: a table top under the lamp. Body text on it is 8.0:1.
+selection = "#4b3a2b"
+# Comments, line numbers, inactive labels and the terminal's bright black, 4.5:1.
+muted = "#8f7b68"
+
+# background is the room in the evening; lighter_background the hovered row and
+# raised cards; dark_background the frame around a page; darker_background the
+# corners the lamps don't reach.
+background = "#191412"
+lighter_background = "#2d2119"
+dark_background = "#120d0b"
+darker_background = "#0d0907"
+
+# Cream, the menu card's paper: body text, 13.5:1.
+foreground = "#e9dcc3"
+# Dimmed text, placeholders and disabled items, 4.5:1.
+dark_foreground = "#8d7b67"
+# Secondary text and graph labels, 8.1:1.
+light_foreground = "#bcaa8f"
+# The cursor, bold text and the terminal's bright white, 15.5:1.
+bright_foreground = "#f5ecd9"
+
+# Terminal colors, each one picked from the room.
+# The berries on the table, 5.9:1.
+red = "#dc7562"
+# The lamp's shade, 9.6:1.
+yellow = "#e9b25f"
+# The bun, 7.3:1.
+orange = "#e0915a"
+# The ivy, 8.3:1.
+green = "#a5b76c"
+# Sage in a pot on the shelf, 8.3:1.
+cyan = "#98b5a6"
+# A biscuit, where other themes have blue: folders in a listing and in the prompt, 8.6:1.
+blue = "#d2ab82"
+# Dried heather in the jug, 6.8:1.
+magenta = "#bd93a3"
+# The shelf's wood, 2.8:1: a color for fills, not for text.
+brown = "#7b563a"
+
+bright_red = "#ea917e"
+bright_yellow = "#f5c97d"
+bright_green = "#bccb87"
+bright_cyan = "#b4cbbe"
+bright_blue = "#e3c4a0"
+bright_magenta = "#d4afbc"

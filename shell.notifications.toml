@@ -1,0 +1,11 @@
+# Replaces Omarchy's generated [notifications] for this theme: the café's walnut board, a shade warmer than the page, under the lamp's light.
+[notifications]
+background       = "#231a15"
+background-alpha = 1.0
+text             = "#e9dcc3"
+# Conventionally matches the Hyprland active-window border. Border accepts
+# either a solid color or the full active-border gradient.
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+# border-width     = 2
+countdown        = "#f0b565"

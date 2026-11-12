@@ -1,0 +1,9 @@
+# Replaces Omarchy's generated [tooltip] for this theme: the café's walnut board, a shade warmer than the page, under the lamp's light.
+[tooltip]
+# Hover tooltips across the bar, panels, and buttons. background-alpha of
+# 0.97 mirrors the legacy hard-coded tooltip opacity.
+background       = "#2d2119"
+background-alpha = 0.97
+text             = "#e9dcc3"
+border           = "hyprland.active-border-foreground"
+border-alpha     = 1.0

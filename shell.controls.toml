@@ -1,0 +1,41 @@
+# Replaces Omarchy's generated [controls] for this theme: the café's walnut board, a shade warmer than the page, under the lamp's light.
+[controls]
+# Shared state tokens for interactive control chrome (buttons, dropdowns,
+# tab strips, etc).
+
+# Normal: idle control chrome. Border widths accept one CSS-style scalar/list:
+# N, "Y X", "T X B", or "T R B L". Per-side keys like
+# normal-border-width-left override the list. Each *-border accepts either a
+# solid color or a Hyprland-style gradient, e.g. "rgba(...) rgba(...) 45deg".
+normal-color        = "#e9dcc3"
+normal-fill-alpha   = 0.04
+normal-border       = "#c9a25e"
+normal-border-width = 1
+normal-border-alpha = 0.45
+
+# Hover-cursor: mouse hover and the panel keyboard cursor.
+hover-cursor-color        = "#f0b565"
+hover-cursor-fill-alpha   = 0.12
+hover-cursor-border       = "#f0b565"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.5
+
+# Focus: Qt activeFocus. Mirror the hover-cursor values by default so
+# mouse hover, keyboard cursor, and tab focus all read as the same state
+# — themes that want focus to stand out override these four lines.
+focus-color        = "#f0b565"
+focus-fill-alpha   = 0.12
+focus-border       = "#f0b565"
+focus-border-width = 1
+focus-border-alpha = 0.5
+
+# Selected: persistent chosen/current state.
+selected-color        = "#f0b565"
+selected-fill-alpha   = 0.2
+selected-border       = "#e9dcc3"
+selected-border-width = 0
+selected-border-alpha = 1.0
+
+# Momentary fills.
+pressed-fill-alpha   = 0.22
+selection-fill-alpha = 0.35

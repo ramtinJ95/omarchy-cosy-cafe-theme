@@ -1,0 +1,18 @@
+# Replaces Omarchy's generated [launcher] for this theme: the café's walnut board, a shade warmer than the page, under the lamp's light.
+[launcher]
+# Same six tokens as [menu], applied to the launcher overlay. Alpha
+# companions go from 0 (invisible) to 1 (opaque). scrim is the full-screen
+# dim layer behind the card; background is the card itself. Defaults
+# mirror [menu] with the card at 0.95 to preserve the legacy translucency.
+background                = "#231a15"
+background-alpha          = 0.97
+text                      = "#e9dcc3"
+border                    = "hyprland.active-border"
+border-alpha              = 1.0
+scrim                     = "#0d0907"
+scrim-alpha               = 0.6
+selected-background       = "#f0b565"
+selected-background-alpha = 0.14
+selected-text             = "#f5c97d"
+selected-border           = "#f0b565"
+selected-border-alpha     = 0.45

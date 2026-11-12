@@ -1,0 +1,12 @@
+# Replaces Omarchy's generated [popups] for this theme: the café's walnut board, a shade warmer than the page, under the lamp's light.
+[popups]
+# Shared by every bar flyout (dropdowns, OSD, popup cards).
+# Border accepts either a solid color or a Hyprland-style gradient. Border
+# widths accept one CSS-style scalar/list: N, "Y X", "T X B", or "T R B L";
+# individual border-width-top/right/bottom/left keys override the list.
+background       = "#231a15"
+background-alpha = 1.0
+text             = "#e9dcc3"
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+# border-width     = 2
